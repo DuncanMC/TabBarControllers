@@ -14,24 +14,15 @@ import UIKit
   case third
 }
 
+
+///This protocol is implemented by the tab view controller MyTabController. It lets a child view controller ask the tab view controller to switch the current tab.
+///Each child view controller that inherits from the ATabController class has a property tabDelegate that conforms to this protocol
 @objc protocol TabController {
   @objc func switchTab(to: Tab)
 }
 
+///This is the base class for child view controllers that manage tabs in the tab view controller. It has a delegate tabDelegate that can be called to switch tabs.
 class ATabController: UIViewController {
   
   weak var tabDelegate: TabController?
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
 }

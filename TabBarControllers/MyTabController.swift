@@ -10,6 +10,11 @@ import UIKit
 
 class MyTabController: UITabBarController, TabController {
   
+  override var selectedIndex: Int {
+    didSet {
+      print("Switching to index \(selectedIndex)")
+    }
+  }
   override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -20,6 +25,10 @@ class MyTabController: UITabBarController, TabController {
       }
     }
   }
+  
+  ///The `prepare(for:)` method gets called as the Storyboard adds child view controllers to the tab bar controller.
+  ///By implementing this function we can set up the tab bar controller as the `tabDelegate`
+  ///of each child view controller so they are able to ask the tab bar controller to change tabs.
   
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     if let child = segue.destination as? ATabController {
