@@ -8,8 +8,12 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class FirstViewController: ATabController {
 
+  @IBAction func handleSecondButton(_ sender: Any) {
+    tabDelegate?.switchTab(to:  .second)
+  }
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.

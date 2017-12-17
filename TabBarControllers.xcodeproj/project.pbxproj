@@ -13,6 +13,9 @@
 		AE519AFC1FE6BDB3004865B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE519AFA1FE6BDB3004865B7 /* Main.storyboard */; };
 		AE519AFE1FE6BDB3004865B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE519AFD1FE6BDB3004865B7 /* Assets.xcassets */; };
 		AE519B011FE6BDB3004865B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE519AFF1FE6BDB3004865B7 /* LaunchScreen.storyboard */; };
+		AE519B091FE6BDEA004865B7 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE519B081FE6BDEA004865B7 /* ThirdViewController.swift */; };
+		AE519B0B1FE6BE09004865B7 /* ATabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE519B0A1FE6BE09004865B7 /* ATabController.swift */; };
+		AE519B0D1FE6C0C1004865B7 /* MyTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE519B0C1FE6C0C1004865B7 /* MyTabController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		AE519AFD1FE6BDB3004865B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE519B001FE6BDB3004865B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE519B021FE6BDB3004865B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE519B081FE6BDEA004865B7 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		AE519B0A1FE6BE09004865B7 /* ATabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATabController.swift; sourceTree = "<group>"; };
+		AE519B0C1FE6C0C1004865B7 /* MyTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				AE519AF41FE6BDB3004865B7 /* AppDelegate.swift */,
 				AE519AF61FE6BDB3004865B7 /* FirstViewController.swift */,
 				AE519AF81FE6BDB3004865B7 /* SecondViewController.swift */,
+				AE519B081FE6BDEA004865B7 /* ThirdViewController.swift */,
+				AE519B0A1FE6BE09004865B7 /* ATabController.swift */,
 				AE519AFA1FE6BDB3004865B7 /* Main.storyboard */,
+				AE519B0C1FE6C0C1004865B7 /* MyTabController.swift */,
 				AE519AFD1FE6BDB3004865B7 /* Assets.xcassets */,
 				AE519AFF1FE6BDB3004865B7 /* LaunchScreen.storyboard */,
 				AE519B021FE6BDB3004865B7 /* Info.plist */,
@@ -141,6 +150,9 @@
 			files = (
 				AE519AF91FE6BDB3004865B7 /* SecondViewController.swift in Sources */,
 				AE519AF51FE6BDB3004865B7 /* AppDelegate.swift in Sources */,
+				AE519B0B1FE6BE09004865B7 /* ATabController.swift in Sources */,
+				AE519B0D1FE6C0C1004865B7 /* MyTabController.swift in Sources */,
+				AE519B091FE6BDEA004865B7 /* ThirdViewController.swift in Sources */,
 				AE519AF71FE6BDB3004865B7 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
